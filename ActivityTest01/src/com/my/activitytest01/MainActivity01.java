@@ -46,7 +46,7 @@ public class MainActivity01 extends ActionBarActivity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				Intent i2=new Intent(MainActivity01.this,Bactivity.class);
-				i2.putExtra("t", tvtrans.getText());
+				i2.putExtra("t", tvtrans.getText());//还可以使用Bundle来传递数据
 				startActivityForResult(i2, 0);
 			}
 		});
